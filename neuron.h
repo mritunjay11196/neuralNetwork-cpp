@@ -1,11 +1,3 @@
-//
-//  neuron.h
-//  neuralNetwork
-//
-//  Created by Mritunjay Singh on 06/04/20.
-//  Copyright © 2020 Mritunjay Singh. All rights reserved.
-//
-
 #ifndef neuron_h
 #define neuron_h
 
@@ -44,4 +36,4 @@ void Neuron::derive()
     this->derivedVal = this->activatedVal * (1 - this->activatedVal);
 }
 
-#endif /* neuron_h */
+#endif 
